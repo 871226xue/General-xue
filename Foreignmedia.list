@@ -1,0 +1,118 @@
+#> ABC
+host-suffix,edgedatg.com,ForeignMedia
+host-suffix,go.com,ForeignMedia
+
+  # > Abema TV
+user-agent,AbemaTV*,ForeignMedia
+host-suffix,abema.io,ForeignMedia
+host-suffix,abema.tv,ForeignMedia
+host-suffix,akamaized.net,ForeignMedia
+host-suffix,ameba.jp,ForeignMedia
+host-suffix,hayabusa.io,ForeignMedia
+
+  # > Amazon Prime Video
+user-agent,InstantVideo.US*,ForeignMedia
+user-agent,Prime%20Video*,ForeignMedia
+host-suffix,aiv-cdn.net,ForeignMedia
+host-suffix,amazonaws.co.uk,ForeignMedia
+host-suffix,amazonaws.com,ForeignMedia
+host-suffix,amazonvideo.com,ForeignMedia
+host-suffix,llnwd.net,ForeignMedia
+host-suffix,primevideo.com,ForeignMedia
+
+  # > Apple News and Apple Map TOMTOM Version
+user-agent,AppleNews*,ForeignMedia
+user-agent,com.apple.news*,ForeignMedia
+host,gspe1-ssl.ls.apple.com,ForeignMedia
+user-agent,News*,ForeignMedia
+host,apple.comscoreresearch.com,ForeignMedia
+host,gateway.icloud.com,ForeignMedia
+host,news-client.apple.com,ForeignMedia
+host,news-edge.apple.com,ForeignMedia
+host,news-events.apple.com,ForeignMedia
+host-suffix,apple.news,ForeignMedia
+
+
+  #  > Apple TV
+host,np-edge.itunes.apple.com,ForeignMedia
+host,play-edge.itunes.apple.com,ForeignMedia
+host-suffix,tv.apple.com,ForeignMedia
+
+  # > Bahamut
+user-agent,Anime*,ForeignMedia
+host-suffix,bahamut.com.tw,ForeignMedia
+host-suffix,gamer.com.tw,ForeignMedia
+host-suffix,hinet.net,ForeignMedia
+
+  # > BBC iPlayer
+user-agent,BBCiPlayer*,ForeignMedia
+host-keyword,bbcfmt,ForeignMedia
+host,aod-dash-uk-live.akamaized.net,ForeignMedia
+host,aod-hls-uk-live.akamaized.net,ForeignMedia
+host,vod-dash-uk-live.akamaized.net,ForeignMedia
+host,vod-thumb-uk-live.akamaized.net,ForeignMedia
+host-suffix,bbc.co,ForeignMedia
+host-suffix,bbc.co.uk,ForeignMedia
+host-suffix,bbc.com,ForeignMedia
+host-suffix,bbcfmt.hs.llnwd.net,ForeignMedia
+host-suffix,bbci.co,ForeignMedia
+host-suffix,bbci.co.uk,ForeignMedia
+
+  #  > DAZN
+host-suffix,d151l6v8er5bdm.cloudfront.net,ForeignMedia
+host-suffix,dazn.com,ForeignMedia
+host-suffix,dazn-api.com,ForeignMedia
+host-suffix,dazndn.com,ForeignMedia
+host-suffix,indazn.com,ForeignMedia
+host-suffix,intercom.io,ForeignMedia
+
+  #  > Disney Plus
+user-agent,Disney*,ForeignMedia
+host,cdn.registerdisney.go.com,ForeignMedia
+host,cdn.cdn.unid.go.com,ForeignMedia
+host-suffix,bamgrid.com,ForeignMedia
+host-suffix,braze.com,ForeignMedia
+host-suffix,conviva.com,ForeignMedia
+host-suffix,disney.demdex.net,ForeignMedia
+host-suffix,disneyplus.com,ForeignMedia
+host-suffix,disney-plus.net,ForeignMedia
+host-suffix,dssott.com,ForeignMedia
+host-suffix,execute-api.us-east-1.amazonaws.com,ForeignMedia
+
+  #  > encoreTVB
+user-agent,encoreTVB*,ForeignMedia
+host-suffix,encoretvb.com,ForeignMedia
+host,content.jwplatform.com,ForeignMedia
+host,videos-f.jwpsrv.com,ForeignMedia
+
+  # > Fox Now
+user-agent,FOX%20NOW*,ForeignMedia
+host-suffix,fox.com,ForeignMedia
+host-suffix,foxdcg.com,ForeignMedia
+host-suffix,uplynk.com,ForeignMedia
+
+  #  > Fox+ (HK|TW|SG)
+user-agent,FOXPlus*,ForeignMedia
+host-suffix,akamaized.net,ForeignMedia
+host-suffix,foxplus.com,ForeignMedia
+host-suffix,theplatform.com,ForeignMedia
+
+  #  > HBO NOW & HBO GO
+user-agent,HBO%20NOW*,ForeignMedia
+host-suffix,execute-api.ap-southeast-1.amazonaws.com,ForeignMedia
+host-suffix,hbo.com,ForeignMedia
+host-suffix,hboasia.com,ForeignMedia
+host-suffix,hbogo.com,ForeignMedia
+host-suffix,hbogoasia.com,ForeignMedia
+host-suffix,hbogoasia.hk,ForeignMedia
+host-suffix,hbonow.com,ForeignMedia
+host-suffix,hbomax.com,ForeignMedia
+
+  #  > Hulu(フールー)
+host-suffix,happyon.jp,ForeignMedia
+host-suffix,hulu.jp,ForeignMedia
+
+  #  > Hulu
+host-suffix,hulu.com,ForeignMedia
+host-suffix,huluim.com,ForeignMedia
+host-suffix,hulustream.com,ForeignMedia
