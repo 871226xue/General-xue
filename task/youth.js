@@ -1,6 +1,5 @@
 # NAME: Disney
 # AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-10-07 14:20:11
 # DOMAIN-SUFFIX: 171
 # USER-AGENT: 1
