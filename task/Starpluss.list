@@ -1,0 +1,17 @@
+DOMAIN-SUFFIX,espn.co.uk,Starplus
+DOMAIN-SUFFIX,espn.com ,Starplus
+DOMAIN-SUFFIX,espn.hb.omtrdc.net ,Starplus
+DOMAIN-SUFFIX,espn.net ,Starplus
+DOMAIN-SUFFIX,espncdn.com ,Starplus
+DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net ,Starplus
+DOMAIN-SUFFIX,espnqa.com ,Starplus
+DOMAIN-SUFFIX,star-brasil.com ,Starplus
+DOMAIN-SUFFIX,star-latam.com ,Starplus
+DOMAIN-SUFFIX,starott.com ,Starplus
+DOMAIN-SUFFIX,starplus.com ,Starplus
+DOMAIN-SUFFIX,star.api.edge.bamgrid.com ,Starplus
+DOMAIN-SUFFIX,star.connections.edge.bamgrid.com ,Starplus
+DOMAIN-SUFFIX,star.content.edge.bamgrid.com ,Starplus
+DOMAIN-SUFFIX,star.playback.edge.bamgrid.com ,Starplus
+
+USER-AGENT,Star +* ,Starplus
