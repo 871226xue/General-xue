@@ -1,0 +1,27 @@
+Name = Migu No Splash Ads
+Description = Remove/blank Migu Video splash/startup ads via rewrite rules.
+Author = you
+Version = 1.0.0
+Homepage = local
+Icon = https://raw.githubusercontent.com/Orz-3/mini/master/alpha/migu.png
+
+[Rewrite]
+# —— 常见“开屏/启动/冷启动”广告接口，直接空 200 —— 
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.+?(?:splash|boot|startup|launch|coldstart).*(?:ad|ads|advert|promotion).*  url reject-200
+
+# —— 通用广告资源位（图片/视频素材等） —— 
+^https?:\/\/(?:gg|ad|ads|advert|trace|adstats|adlog)[\w\-]*\.(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/  url reject-200
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.+?\/(splash|boot)\/(img|image|video)\/  url reject-200
+
+# —— 拉取广告配置/AB 配置开关 —— 
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.+?(?:config|conf|strategy|profile|startup).*(?:ad|ads|advert|splash).*  url reject-200
+
+# —— 常见埋点/曝光/点击回传，减少二次拉取 —— 
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.+?(?:track|tracking|report|log|collect).*(?:ad|splash|boot).*  url reject
+
+# —— 兜底：明确 ad 关键词的静态/接口 —— 
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.*(?:\/ad\/|_ad\/|\/ads\/|_ads\/)  url reject-200
+^https?:\/\/(?:[^\/]+\.)?(?:cmvideo\.cn|miguvideo\.com|migu\.cn)\/.*[?&](?:ad|ads|advert|promotion)=[^&]*  url reject-200
+
+[MITM]
+hostname = *.cmvideo.cn, *.miguvideo.com, *.migu.cn
